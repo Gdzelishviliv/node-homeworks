@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "cw-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin":{
+    "expences-cli":"./app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.2"
+  }
+}
